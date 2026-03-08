@@ -14,4 +14,4 @@
 
 服务条款：https://smallfishcode.github.io/petDairyUrl/xinxi-ser
 
-技术支持：https://smallfishcode.github.io/petDairyUrl/SUPPORT
+技术支持：https://smallfishcode.github.io/petDairyUrl/xinxi-sup
