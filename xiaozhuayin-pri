@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>小爪印隐私政策</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1f2329;
+      --sub: #4e5969;
+      --line: #e5e6eb;
+      --brand: #ff7d00;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+                   "Microsoft YaHei", "Noto Sans CJK SC", "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 24px auto;
+      padding: 0 16px 40px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 14px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      line-height: 1.4;
+      color: var(--brand);
+    }
+    h3 {
+      margin: 12px 0 8px;
+      font-size: 16px;
+    }
+    p { margin: 8px 0; color: var(--sub); }
+    ul { margin: 8px 0 8px 20px; color: var(--sub); }
+    li { margin: 4px 0; }
+    .meta {
+      color: #86909c;
+      font-size: 14px;
+    }
+    .strong { color: var(--text); font-weight: 600; }
+    .tip {
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: #fff7e8;
+      border: 1px solid #ffe4ba;
+      color: #9a5b00;
+      font-size: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+      font-size: 14px;
+      color: var(--sub);
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background: #fafafa;
+      color: var(--text);
+      font-weight: 600;
+    }
+    a { color: #165dff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>小爪印隐私政策</h1>
+      <p class="meta">更新日期：2026年3月24日</p>
+      <p class="meta">生效日期：2026年3月24日</p>
+      <p>
+        欢迎使用小爪印。我们非常重视您的个人信息与隐私保护。本政策旨在说明我们如何收集、使用、
+        存储、共享和保护您的个人信息，以及您如何管理您的个人信息。
+      </p>
+      <p class="tip">
+        请您在使用小爪印服务前，仔细阅读并充分理解本政策，特别是与您的权益有重大关系的条款。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>一、我们收集的信息</h2>
+      <h3>1. 您主动提供的信息</h3>
+      <ul>
+        <li>账号与身份信息：Apple 登录凭证（用于登录鉴权）、用户 ID。</li>
+        <li>个人资料信息：昵称、头像、星级认证信息、联系方式等您在个人资料或认证流程中填写的信息。</li>
+        <li>宠物与发布内容：宠物资料、领养帖子内容、图片/视频、回访计划相关文本与媒体信息。</li>
+        <li>聊天与互动信息：您发送的聊天消息内容、回访卡片、点赞/申请/通知交互记录。</li>
+      </ul>
+
+      <h3>2. 在您使用过程中产生的信息</h3>
+      <ul>
+        <li>设备与日志信息：设备标识、系统版本、应用版本、异常日志、操作日志（用于稳定性与问题排查）。</li>
+        <li>推送相关信息：设备推送 Token、通知点击行为（用于消息推送与通知到达）。</li>
+        <li>位置信息：在您授权后获取“使用期间定位”，用于同城信息推荐与城市展示。</li>
+      </ul>
+
+      <h3>3. 第三方服务产生的数据</h3>
+      <ul>
+        <li>腾讯云 IM：即时通讯能力、离线推送链路、会话相关数据。</li>
+        <li>阿里云 OSS：图片/媒体上传与存储能力。</li>
+        <li>Apple 登录：身份认证能力。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>二、我们如何使用您的信息</h2>
+      <ul>
+        <li>提供核心功能：账号登录、资料维护、领养发布、聊天沟通、回访计划执行、点赞互动。</li>
+        <li>实现媒体处理：对上传图片进行压缩与上传，以提升上传效率和使用体验。</li>
+        <li>提供同城能力：在授权定位后展示城市信息并用于同城相关内容排序/推荐。</li>
+        <li>消息通知：用于系统通知、IM 通知及相关跳转。</li>
+        <li>安全与风控：识别异常行为、保障账号与服务安全。</li>
+        <li>运维与改进：故障排查、性能优化、功能迭代。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>三、权限调用说明</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>系统权限</th>
+            <th>用途</th>
+            <th>是否可拒绝</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>相机权限</td>
+            <td>用于拍摄宠物照片/回访图片、聊天拍摄等功能。</td>
+            <td>可拒绝；拒绝后相关拍摄功能不可用。</td>
+          </tr>
+          <tr>
+            <td>麦克风权限</td>
+            <td>用于发送语音消息等音频采集能力。</td>
+            <td>可拒绝；拒绝后语音相关功能不可用。</td>
+          </tr>
+          <tr>
+            <td>相册读取权限</td>
+            <td>用于从系统相册选择图片进行发布或上传。</td>
+            <td>可拒绝；拒绝后无法从相册选图。</td>
+          </tr>
+          <tr>
+            <td>相册写入权限</td>
+            <td>用于将分享海报或图片保存到系统相册。</td>
+            <td>可拒绝；拒绝后无法保存到相册。</td>
+          </tr>
+          <tr>
+            <td>定位（使用期间）</td>
+            <td>用于同城领养信息展示和城市定位显示。</td>
+            <td>可拒绝；拒绝后将使用非定位方案（如全国序）。</td>
+          </tr>
+          <tr>
+            <td>通知权限</td>
+            <td>用于消息通知、回访/系统通知提醒。</td>
+            <td>可拒绝；拒绝后将无法接收系统推送提醒。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>四、我们如何共享、转让、公开披露信息</h2>
+      <h3>1. 共享</h3>
+      <p>为实现服务所必需，我们可能与以下第三方共享必要信息：</p>
+      <ul>
+        <li>腾讯云 IM（用于即时通讯、会话与推送相关能力）；</li>
+        <li>阿里云 OSS（用于媒体上传与存储）；</li>
+        <li>Apple 登录服务（用于身份认证）。</li>
+      </ul>
+      <p>我们仅在实现业务功能所必需的范围内进行共享，并要求合作方依法处理您的信息。</p>
+
+      <h3>2. 转让与公开披露</h3>
+      <p>
+        除非法律法规另有规定或获得您的单独同意，我们不会向任何公司、组织和个人转让或公开披露您的个人信息。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>五、信息存储与保护</h2>
+      <ul>
+        <li>我们会在实现本政策所述目的所需的最短期限内保存您的信息，法律法规另有规定的除外。</li>
+        <li>本地缓存信息（如登录态、头像缓存、部分配置）用于提升体验，您可通过登出等方式清除部分本地数据。</li>
+        <li>我们采取合理可行的安全措施（如访问控制、传输链路保护等）保障您的信息安全。</li>
+      </ul>
+      <p class="tip">
+        互联网并非绝对安全环境，请您妥善保管账号及设备，避免在不安全环境下泄露敏感信息。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>六、您的权利</h2>
+      <ul>
+        <li>访问与更正：您可在应用内查看并修改昵称、头像、资料等信息。</li>
+        <li>删除与注销：您可联系我们申请删除相关信息或注销账号（以平台实际流程为准）。</li>
+        <li>撤回授权：您可在系统设置中关闭相机、相册、定位、通知等权限。</li>
+        <li>获取说明：您可通过技术支持联系方式咨询隐私与数据处理问题。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>七、未成年人保护</h2>
+      <p>
+        若您是未成年人，请在监护人指导下阅读并同意本政策后使用相关服务。监护人有权对未成年人的信息处理提出意见与要求。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>八、政策更新</h2>
+      <p>
+        我们可能根据业务变化、法律法规要求更新本政策。更新后版本将通过应用内或相关页面公布，重大变更会以适当方式提示您。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>九、联系我们</h2>
+      <p>如您对本隐私政策有任何疑问、意见或投诉建议，请通过以下方式联系我们：</p>
+      <ul>
+        <li>联系邮箱：<a href="mailto:3226033807@qq.com">3226033807@qq.com</a></li>
+      </ul>
+      <p class="strong">我们将在收到后尽快回复并处理。</p>
+    </section>
+  </div>
+</body>
+</html>
